@@ -7,3 +7,13 @@ export function getBannerAPi() {
     url: "/home/banner",
   });
 }
+
+export const findNewAPI = () => {
+  return httpInstance({
+    url: "/home/new",
+  });
+};
+
+export const getHotAPI = () => {
+  return httpInstance({ url: "/home/hot" });
+};

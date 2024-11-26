@@ -8,12 +8,17 @@ import { RouterLink, RouterView } from "vue-router";
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/login">login</RouterLink>
     </nav>
+    <div class="test">test scss</div>
   </header>
 
   <RouterView />
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.test {
+  color: $priceColor;
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;

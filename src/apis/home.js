@@ -17,3 +17,7 @@ export const findNewAPI = () => {
 export const getHotAPI = () => {
   return httpInstance({ url: "/home/hot" });
 };
+
+export const getGoodsAPI = () => {
+  return httpInstance({ url: "/home/goods" });
+};

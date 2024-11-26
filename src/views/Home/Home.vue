@@ -1,10 +1,8 @@
-<script setup>
-  
-</script>
+<script setup></script>
 
 <template>
-Home
+  Home
+  <div style="height: 1000px"></div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
